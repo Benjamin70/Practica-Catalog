@@ -1,0 +1,47 @@
+﻿@model Capa_Entidad.Product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Details Of The Product</h2>
+<br />
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            <label>Product Identifier</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id_Product)
+        </dd>
+
+        <dt>
+            <label>Name</label></dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            <label>Price</label></dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            <label>Category Identifier</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoryID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a class="btn btn-success" href="@Url.Action("Edit", "Product", new { id = Model.Id_Product})"><i class="glyphicon glyphicon-edit"></i> Editar</a>
+    <a class="btn btn-primary" href="@Url.Action("Index","Product")"><i class="glyphicon glyphicon-menu-left"></i> Regresar al Listado</a>
+</p>

@@ -1,0 +1,47 @@
+﻿@model Capa_Entidad.Category
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Details of the  Category</h2>
+<br />
+<div>
+    <dl class="dl-horizontal">
+         <dt>
+             <label>
+                 Category identifier
+             </label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id_Category)
+        </dd>
+
+        <dt>
+            <label>
+               Name
+            </label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            <label>
+                Description
+            </label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a class="btn btn-success" href="@Url.Action("Edit", "Category", new { id = Model.Id_Category})"><i class="glyphicon glyphicon-edit"></i> Editar</a>
+    <a class="btn btn-primary" href="@Url.Action("Index","Category")"><i class="glyphicon glyphicon-menu-left"></i> Regresar al Listado</a>
+</p>

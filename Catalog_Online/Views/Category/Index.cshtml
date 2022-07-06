@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Capa_Entidad.Category>
+
+@{
+    ViewBag.Title = "List of Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2 class="text-center">List of the Category</h2>
+@section Styles{
+    <link href="//cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" rel="stylesheet" />
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        <strong>Success !!</strong> @TempData["SuccessMessage"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span>&times;</span>
+        </button>
+    </div>
+}
+else if (TempData["ErroMessage"] != null)
+{
+    <div class="alert alert-danger">
+        <strong>Error !!</strong> @TempData["ErroMessage"]
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span>&times;</span>
+        </button>
+    </div>
+}
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Create", "Category")"><i class="glyphicon glyphicon-plus"></i> Agregar Categoria</a>
+</p>
+<table class="table table-bordered table-hover table-responsive" id="myTable">
+    <thead>
+        <tr>
+            <th>
+                <label>Category identifier</label>
+            </th>
+            <th>
+               <label>Name</label>
+            </th>
+            <th>
+                <label>Description</label>
+            </th>
+            <th>
+                <label>Action</label>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id_Category)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <a class="btn btn-primary btn-xs" title="Editar" href="@Url.Action("Edit", "Category", new { id=item.Id_Category})"> <i class="glyphicon glyphicon-edit"></i></a>
+                    <a class="btn btn-info btn-xs" title="Detalles" href="@Url.Action("Details", "Category", new { id = item.Id_Category})"> <i class="glyphicon glyphicon-pencil"></i></a>
+                    <a class="btn btn-danger btn-xs" title="Eliminar" href="@Url.Action("Delete", "Category", new { id = item.Id_Category})"> <i class="glyphicon glyphicon-trash"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section scripts{
+    <script src="//cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script>
+        $('#myTable').DataTable();
+    </script>
+}

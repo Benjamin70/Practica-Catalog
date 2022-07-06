@@ -1,0 +1,6 @@
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Entidad\bin\Debug\Capa_Entidad.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Entidad\bin\Debug\Capa_Entidad.pdb
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Entidad\obj\Debug\Capa_Entidad.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Entidad\obj\Debug\Capa_Entidad.pdb
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Entidad\obj\Debug\Capa_Entidad.csprojAssemblyReference.cache

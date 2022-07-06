@@ -1,0 +1,11 @@
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\bin\Debug\Capa_Entidad.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\bin\Debug\Capa_Entidad.pdb
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\obj\Debug\Capa_Negocio.csprojAssemblyReference.cache
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Negocio\obj\Debug\Capa_Negocio.pdb

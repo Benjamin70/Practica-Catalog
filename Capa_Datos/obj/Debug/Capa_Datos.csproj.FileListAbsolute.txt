@@ -1,0 +1,17 @@
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\Capa_Entidad.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\System.Security.AccessControl.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\System.Security.Permissions.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\System.Security.Principal.Windows.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\Capa_Entidad.pdb
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\System.Security.AccessControl.xml
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\System.Security.Permissions.xml
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\bin\Debug\System.Security.Principal.Windows.xml
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\PRACTICA(CATALOGO ONLINE)\PRAC_HBRGROUP\Capa_Datos\obj\Debug\Capa_Datos.pdb
